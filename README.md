@@ -1,4 +1,4 @@
-# docker-carbon-cache #
+# docker-carbon-aggregator #
 Minimal image based on `python:2.7.12-alpine` with carbon-aggregator daemon running.
 
 ## Base usage ##
