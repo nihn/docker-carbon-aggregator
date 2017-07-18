@@ -29,3 +29,8 @@ by using environment variables in braces, e.g:
 ```
 DESTINATIONS = {DESTINATIONS}
 ```
+
+You can also pass additional options to carbon binary via `CARBON_OPTS` env:
+```
+docker run -e CARBON_OPTS="--instance agg-x" 2013:2013 -p 2014:2014 mateuszm/carbon-aggregator
+```
