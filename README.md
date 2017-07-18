@@ -32,5 +32,5 @@ DESTINATIONS = {DESTINATIONS}
 
 You can also pass additional options to carbon binary via `CARBON_OPTS` env:
 ```
-docker run -e CARBON_OPTS="--instance agg-x" 2013:2013 -p 2014:2014 mateuszm/carbon-aggregator
+docker run -e CARBON_OPTS="--instance agg-x" -p 2023:2023 -p 2024:2024 mateuszm/carbon-aggregator
 ```
